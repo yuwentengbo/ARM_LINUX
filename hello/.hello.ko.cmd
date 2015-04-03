@@ -1,0 +1,1 @@
+cmd_/home/forlinux/hello/hello.ko := arm-linux-ld -EL -r  -T /home/forlinux/linux-3.0.1/scripts/module-common.lds --build-id  -o /home/forlinux/hello/hello.ko /home/forlinux/hello/hello.o /home/forlinux/hello/hello.mod.o
