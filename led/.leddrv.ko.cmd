@@ -1,0 +1,1 @@
+cmd_/home/forlinux/led/leddrv.ko := arm-linux-ld -EL -r  -T /home/forlinux/linux-3.0.1/scripts/module-common.lds --build-id  -o /home/forlinux/led/leddrv.ko /home/forlinux/led/leddrv.o /home/forlinux/led/leddrv.mod.o
