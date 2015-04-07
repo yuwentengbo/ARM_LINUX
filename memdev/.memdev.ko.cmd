@@ -1,0 +1,1 @@
+cmd_/home/forlinux/memdev/memdev.ko := arm-linux-ld -EL -r  -T /home/forlinux/linux-3.0.1/scripts/module-common.lds --build-id  -o /home/forlinux/memdev/memdev.ko /home/forlinux/memdev/memdev.o /home/forlinux/memdev/memdev.mod.o
