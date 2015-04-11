@@ -1,0 +1,1 @@
+cmd_/home/forlinux/key1/keydrv.ko := arm-linux-ld -EL -r  -T /home/forlinux/linux-3.0.1/scripts/module-common.lds --build-id  -o /home/forlinux/key1/keydrv.ko /home/forlinux/key1/keydrv.o /home/forlinux/key1/keydrv.mod.o
